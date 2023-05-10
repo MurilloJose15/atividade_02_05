@@ -22,7 +22,7 @@ class Photo_View extends StatelessWidget {
                     width: 800,
                     height: 600,
                     child: PhotoView(
-                      imageProvider: AssetImage('images/gon.jpg'),
+                      imageProvider: AssetImage('media/gon.jpg'),
                     ),
                   ),
                 ),

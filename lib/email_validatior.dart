@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:email_validator/email_validator.dart';
 
 class ValEmail extends StatefulWidget {
 
@@ -6,10 +7,11 @@ class ValEmail extends StatefulWidget {
   State<ValEmail> createState() => _ValEmailState();
 }
 void main() {
-  var email = "fredrik@gmail.com";
-}
-  assert(EmailValidator.validate(email));
+    const String email = 'muriloj732@gmail.com';
+    final bool isValid = EmailValidator.validate(email);
 
+    print('O Email é válido? ' + (isValid ? 'Sim' : 'Não'));
+}
 class _ValEmailState extends State<ValEmail> {
   @override
   Widget build(BuildContext context) {

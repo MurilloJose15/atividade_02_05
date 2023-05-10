@@ -16,7 +16,7 @@ void main() {
       debugShowCheckedModeBanner: false,
         routes: {
           '/': (_) => HomeScreen(),
-          '/videoP': (_) => Video_Player(),
+          '/videoP': (_) => VideoP(),
           '/PhotoV': (_) => Photo_View(),
           '/AnimatedTextKIt': (_) => TextoAni(),
           '/FlutterEasyLoa': (_) => Flutter_Easy(),
